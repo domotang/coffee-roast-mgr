@@ -1,0 +1,31 @@
+{
+  "name": "coffee-roast-mgr",
+  "version": "1.0.0",
+  "description": "coffee roasting profile manager",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domotang/coffee-roast-mgr.git"
+  },
+  "keywords": [
+    "coffee",
+    "roast"
+  ],
+  "author": "Stephen Reed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/domotang/coffee-roast-mgr/issues"
+  },
+  "homepage": "https://github.com/domotang/coffee-roast-mgr#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.5.14",
+    "morgan": "^1.9.1"
+  }
+}
